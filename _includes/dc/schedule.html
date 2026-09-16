@@ -152,51 +152,139 @@ The schedule for the different curricula are listed here:
     <h5>Day 1</h5>
     <table class="table table-striped">
       <tr>
-	<td>Before starting</td>
-	<td><a href="{{ site.pre_survey }}{{ site.github.project_title }}" target="_blank">Pre-workshop survey</a></td>
-      </tr>
-      <tr><td>Morning</td> <td> <a href="https://datacarpentry.org/spreadsheet-ecology-lesson/">Data Organization in Spreadsheets</a></td></tr>
-      <tr><td> </td><td><a href="https://datacarpentry.org/OpenRefine-ecology-lesson/">OpenRefine for Data Cleaning</a></td></tr>
-      <tr>
-        <td>Afternoon</td>
+        <td>Before starting</td>
         <td>
-          {% if site.flavor == "r" %}
-          <a href="https://datacarpentry.org/R-ecology-lesson/">Introduction to R</a>
-          {% elsif site.flavor == "python" %}
-          <a href="https://datacarpentry.org/python-ecology-lesson/">Introduction to Python</a>
-          {% else %}
-          {% include warning-flavor.html %}
-          {% endif %}
-      </td></tr>
-      <tr> <td>Evening</td> <td>END</td> </tr>
+          <a href="{{ site.pre_survey }}{{ site.github.project_title }}" target="_blank">
+            Pre-workshop survey
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td>08:30</td>
+        <td>Welcome and workshop introduction</td>
+      </tr>
+      <tr>
+        <td>08:45</td>
+        <td>
+          <a href="https://datacarpentry.github.io/R-ecology-lesson/" target="_blank">
+            Introduction to R and RStudio
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td>09:30</td>
+        <td>Data visualization with ggplot2 — Part 1</td>
+      </tr>
+      <tr>
+        <td>10:30</td>
+        <td>Break</td>
+      </tr>
+      <tr>
+        <td>10:45</td>
+        <td>Data visualization with ggplot2 — Part 2</td>
+      </tr>
+      <tr>
+        <td>12:00</td>
+        <td>Lunch break</td>
+      </tr>
+      <tr>
+        <td>12:30</td>
+        <td>Exploring and understanding data — Part 1</td>
+      </tr>
+      <tr>
+        <td>13:45</td>
+        <td>Questions and wrap-up</td>
+      </tr>
+      <tr>
+        <td>14:00</td>
+        <td>Finish</td>
+      </tr>
     </table>
   </div>
+
   <div class="col-md-6">
     <h5>Day 2</h5>
     <table class="table table-striped">
-      <tr> <td>Morning</td>
+      <tr>
+        <td>08:30</td>
+        <td>Recap and questions from Day 1</td>
+      </tr>
+      <tr>
+        <td>08:45</td>
         <td>
-          {% if site.flavor == "r" %}
-          <a href="https://datacarpentry.org/R-ecology-lesson/">Continuation of R: Data analysis and Visualization</a>
-          {% elsif site.flavor == "python" %}
-          <a href="https://datacarpentry.org/python-ecology-lesson/">Continuation of Python: Data analysis and Visualization</a>
-          {% else %}
-          {% include warning-flavor.html %}
-          {% endif %}
+          <a href="https://datacarpentry.github.io/R-ecology-lesson/" target="_blank">
+            Exploring and understanding data — Part 2
+          </a>
         </td>
       </tr>
-      <tr> <td>Afternoon</td><td><a href="https://datacarpentry.org/sql-ecology-lesson/">Data Management with SQL</a></td></tr>
       <tr>
-	<td>Evening</td>
-	<td><a href="{{ site.post_survey }}{{ site.github.project_title }}" target="_blank">Post-workshop survey</a></td>
+        <td>10:00</td>
+        <td>Break</td>
       </tr>
       <tr>
-	<td> </td>
-	<td> END </td>
+        <td>10:15</td>
+        <td>Working with data — Part 1</td>
+      </tr>
+      <tr>
+        <td>11:30</td>
+        <td>Lunch break</td>
+      </tr>
+      <tr>
+        <td>12:00</td>
+        <td>Working with data — Part 2</td>
+      </tr>
+      <tr>
+        <td>13:30</td>
+        <td>Exercises: Putting it all together</td>
+      </tr>
+      <tr>
+        <td>13:50</td>
+        <td>Questions and wrap-up</td>
+      </tr>
+      <tr>
+        <td>14:00</td>
+        <td>Finish</td>
       </tr>
     </table>
   </div>
 </div>
+
+<div class="row">
+  <div class="col-md-6">
+    <h5>Day 3</h5>
+    <table class="table table-striped">
+      <tr>
+        <td>08:30</td>
+        <td>
+          <a href="https://datacarpentry.github.io/sql-ecology-lesson/" target="_blank">
+            Introduction to databases and SQL
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td>09:30</td>
+        <td>Accessing data with queries</td>
+      </tr>
+      <tr>
+        <td>10:15</td>
+        <td>Break</td>
+      </tr>
+      <tr>
+        <td>10:30</td>
+        <td>Accessing data with queries — Exercises</td>
+      </tr>
+      <tr>
+        <td>11:15</td>
+        <td>Aggregating and grouping data</td>
+      </tr>
+      <tr>
+        <td>12:00</td>
+        <td>Lunch break</td>
+      </tr>
+      <tr>
+        <td>12:30</td>
+        <td>Aggregating and
+
 
 {% elsif site.curriculum == "dc-genomics" %}
 
